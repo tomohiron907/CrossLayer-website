@@ -22,6 +22,9 @@ export default function Footer() {
           <a href="#about" className="hover:text-gray-900 transition-colors">
             {nav.about[lang]}
           </a>
+          <a href="#links" className="hover:text-gray-900 transition-colors">
+            {nav.links[lang]}
+          </a>
           <a href="#contact" className="hover:text-gray-900 transition-colors">
             {nav.contact[lang]}
           </a>

@@ -23,6 +23,9 @@ export default function Nav() {
           <a href="#about" className="hover:text-gray-900 transition-colors">
             {t.about[lang]}
           </a>
+          <a href="#links" className="hover:text-gray-900 transition-colors">
+            {t.links[lang]}
+          </a>
           <a href="#contact" className="hover:text-gray-900 transition-colors">
             {t.contact[lang]}
           </a>

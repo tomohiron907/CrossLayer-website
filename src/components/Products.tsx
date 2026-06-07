@@ -41,9 +41,20 @@ export default function Products() {
                 <p className="text-sm text-gray-400 mb-5">
                   {item.subtitle[lang]}
                 </p>
-                <p className="text-base text-gray-600 leading-relaxed">
+                <p className="text-base text-gray-600 leading-relaxed mb-6">
                   {item.body[lang]}
                 </p>
+                {"url" in item && item.url && "cta" in item && item.cta && (
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-gray-900 transition-colors"
+                  >
+                    {(item.cta as { ja: string; en: string })[lang]}
+                    <span className="font-mono text-xs">↗</span>
+                  </a>
+                )}
               </div>
             </div>
           ))}

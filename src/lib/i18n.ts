@@ -5,6 +5,7 @@ export const content = {
     mission: { ja: "ミッション", en: "Mission" },
     products: { ja: "プロダクト", en: "Products" },
     about: { ja: "会社概要", en: "About" },
+    links: { ja: "リンク", en: "Links" },
     contact: { ja: "お問い合わせ", en: "Contact" },
   },
   hero: {
@@ -32,6 +33,8 @@ export const content = {
           ja: "3Dプリンタは従来試作として使われてきたが、最終製品としての質感や精度を出すには壁があった。ノズルの動き・温度・速度を数式とコーディングで細かく制御できるソフトを開発。試作の道具だった3Dプリントを、最終製品をつくる道具に変えることができる。",
           en: "3D printers have traditionally been used for prototyping — but achieving final-product quality required overcoming major barriers. G-coordinator gives precise control over nozzle movement, temperature, and speed through mathematical formulas and code, transforming 3D printing into a production-grade tool.",
         },
+        url: "https://github.com/tomohiron907/G-coordinator",
+        cta: { ja: "GitHubで見る", en: "View on GitHub" },
       },
       {
         number: "02",
@@ -44,6 +47,8 @@ export const content = {
           ja: "3Dプリント部品は強度が足りないことが多い。内部のインフィル密度をシミュレーションで最適化するソフトを開発。既存のスライサーと連携しながらインフィルを最適化し、同じ重さでも強度が約2倍に。完成後に「強度が足りずに再印刷」という手戻りをなくす。",
           en: "3D printed parts often lack sufficient strength. Strecs3D uses simulation to optimize internal infill density, integrating with existing slicers to roughly double strength at the same weight — eliminating costly reprints due to structural failure.",
         },
+        url: "https://strecs3d.xyz/",
+        cta: { ja: "サイトを見る", en: "Visit website" },
       },
       {
         number: "03",
@@ -97,6 +102,17 @@ export const content = {
       founded: { ja: "2026年4月設立", en: "Founded April 2026" },
       email: "taniguchi@crosslayer.co.jp",
     },
+  },
+  links: {
+    heading: { ja: "リンク", en: "Links" },
+    social: { ja: "SNS", en: "Social" },
+    socialItems: [
+      { id: "x", label: "X", handle: "@tamutamu3D", url: "https://x.com/tamutamu3D" },
+      { id: "github", label: "GitHub", handle: "tomohiron907", url: "https://github.com/tomohiron907" },
+      { id: "youtube", label: "YouTube", handle: { ja: "谷口朝洋", en: "Taniguchi Tomohiro" }, url: "https://www.youtube.com/@%E8%B0%B7%E5%8F%A3%E6%9C%9D%E6%B4%8B" },
+      { id: "instagram", label: "Instagram", handle: "@tamutamu3d", url: "https://www.instagram.com/tamutamu3d?igsh=MW55M2l0MGljNHYzZQ%3D%3D&utm_source=qr" },
+      { id: "reddit", label: "Reddit", handle: "u/tomohiron907", url: "https://www.reddit.com/user/tomohiron907/" },
+    ],
   },
   footer: {
     rights: {
